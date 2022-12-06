@@ -19,9 +19,10 @@ class ViewController: UIViewController {
     }
     private func setupViews() {
         view.backgroundColor = .white
-        myLabel.text = "Hello!"
+        myLabel.textColor = .red
+        myLabel.text = "It's my second commit"
         myLabel.font = .boldSystemFont(ofSize: 27)
-        myLabel.textColor = .black
+       // myLabel.textColor = .black
         
         view.addSubview(myLabel)
     }
